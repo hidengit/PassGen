@@ -5,7 +5,7 @@ import sys
 from datetime import datetime
 from tqdm import tqdm
 
-# Lis les fichiers dans wordlist.txt et verifie si le 1 existe et 2 c'est pas obligatoire
+# Lis les fichiers dans wordlist.txt et verifie si le 1 existe et 2 c'est pas obligatoire !
 if os.path.exists("wordlist.txt"):
     with open("wordlist.txt", "r") as files:
         mots = files.read().splitlines()
